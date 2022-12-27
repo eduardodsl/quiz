@@ -2,7 +2,7 @@
 
 ## Outros Idiomas:
 
-* English
+* [English](https://github.com/eduardodsl/quiz/)
 
 <img src="image.png" width="100%">
 

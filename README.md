@@ -2,7 +2,7 @@
 
 ## Other Languages
 
-* Português
+* [Português](https://github.com/eduardodsl/quiz/blob/main/README.pt.md)
 
 <img src="image.png" width="100%">
 

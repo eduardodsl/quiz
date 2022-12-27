@@ -1,0 +1,304 @@
+{
+    "questions": [
+        {
+            "text": {
+                "en": "An anonymous person shows up and challenges you for a battle, how would you respond?",
+                "pt": "Uma pessoa anônima aparece e o desafia para uma batalha, como você responderia?"
+            },
+            "alternatives": [
+                {
+                    "text": {
+                        "en": "I would fight without hesitation!",
+                        "pt": "Lutaria sem hesitar!"
+                    },
+                    "stats": {
+                        "bravery": 1,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would ask him first who he is and why he is challenging me",
+                        "pt": "Eu perguntaria primeiro quem ele é e por quê está me desafiando"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "Flee!",
+                        "pt": "Fugiria!"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 1,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would declare he will die like a dog before mercilessly attack him",
+                        "pt": "Eu declaria de que ele morreria feito um cão antes de atacá-lo sem misericórdia"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 1,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                }
+            ]
+        },
+        {
+            "text": {
+                "en": "You are tasked to stop a whole alien race from rebelling against your government, how would you deal with them?",
+                "pt": "Você é enviado para parar uma raça alienígena de se rebelar contra o seu governo, como você lidaria com a situação?"
+            },
+            "alternatives": [
+                {
+                    "text": {
+                        "en": "I would challenge them for a martial arts tournament, and if I win they should concede defeat",
+                        "pt": "Os desafiaria para um torneio de artes marciais, e se eu vencer eles deverão aceitar a derrota"
+                    },
+                    "stats": {
+                        "bravery": 1,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would bring them to the negotiation table, and make some concessions if needed to avoid bloodshed",
+                        "pt": "Eu os traria para a mesa de negociações, e até faria algumas concessões a fim de evitar derramamento de sangue"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would buy out their key leaders in exchange for them convincing their allies to stop",
+                        "pt": "Eu compraria a lealdade dos líderes da rebelião em troca de convencerem todos a parar"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 1,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would kill them all and explode their planet to make an example out of them to the our other subjects",
+                        "pt": "Eu mataria todos e destruiria seu planeta para dar um exemplo a todos os nossos outros vassalos"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 1,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                }
+            ]
+        },
+        {
+            "text": {
+                "en": "After a long battle and with many allies lost, you not only achieve victory against your enemy, but also gather the seven dragon balls. Shen Long will grant you only one wish, what would you ask?",
+                "pt": "Depois de uma longa batalha e após perder muitos aliados, você não só conquista a vitória contra seu inimigo, mas finalmente junta as sete esferas do dragão. Shen Long te concederá apenas um desejo, o que você pediria?"
+            },
+            "alternatives": [
+                {
+                    "text": {
+                        "en": "To ressurect all those fallen in battle that fought for my cause",
+                        "pt": "Resuscitar todos aqueles que pereceram em batalha em nome da minha causa"
+                    },
+                    "stats": {
+                        "bravery": 1,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would ask for immortality",
+                        "pt": "Eu pediria imortalidade"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 1,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would ask to restore all the damage done and to bring prosperity to all those who survived",
+                        "pt": "Eu compraria a lealdade dos líderes da rebelião em troca de convencerem todos a parar"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I want to have infinite money",
+                        "pt": "Eu quero ter dinheiro infinito"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 1,
+                        "rational": 0
+                    }
+                }
+            ]
+        },
+        {
+            "text": {
+                "en": "You are training your disciple in martial arts, but he is not performing as you would like and this is frustrating you, how would you try to change the situation?",
+                "pt": "Você está treinando o seu discípulo em artes marciais, mas ele não está indo tão bem quanto gostaria, o que você tentaria fazer para mudar a situação?"
+            },
+            "alternatives": [
+                {
+                    "text": {
+                        "en": "Motivate him to be put more effort in it so he can finally achieve his dreams",
+                        "pt": "Tentar motivá-lo a se esforçar mais para que ele consiga finalmente atingir seus sonhos"
+                    },
+                    "stats": {
+                        "bravery": 1,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "Understand he is in the beggining and be more patient",
+                        "pt": "Entender que ele está no começo e ser mais paciente"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 1,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "I would pressure him to do better because you will not be there forever",
+                        "pt": "O pressionaria a fazer melhor porque você não estará lá para sempre"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 1,
+                        "rational": 1
+                    }
+                },
+                {
+                    "text": {
+                        "en": "Tell him he is useless and kick him out",
+                        "pt": "Dizer que ele é inútil e deixar de treiná-lo"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 1,
+                        "cowardly": 1,
+                        "rational": 0
+                    }
+                }
+            ]
+        },
+        {
+            "text": {
+                "en": "After defeating an powerful enemy by yourself, he still lives. What would it be your next action",
+                "pt": "Depois de derrotar um poderoso inimigo ele ainda continua vivo, qual seria a sua próxima ação?"
+            },
+            "alternatives": [
+                {
+                    "text": {
+                        "en": "Leave him be, and tell him you are looking forward for your next battle with him",
+                        "pt": "Deixá-lo como está, e dizer a ele que irá aguardar a próxima batalha de vocês"
+                    },
+                    "stats": {
+                        "bravery": 1,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "Put him out of misery",
+                        "pt": "Acabar com sua miséria"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 1,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "In exchange for letting him live, tell him not to bring problems again",
+                        "pt": "Em troca de deixá-lo viver, dizer que não traga mais problemas novamente"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 1,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 0
+                    }
+                },
+                {
+                    "text": {
+                        "en": "Bring him to the authorities",
+                        "pt": "Entregá-lo às autoridades competentes"
+                    },
+                    "stats": {
+                        "bravery": 0,
+                        "friendly": 0,
+                        "dreadful": 0,
+                        "cowardly": 0,
+                        "rational": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,27 +1,33 @@
-# Quiz
+# Dragon Ball Z Quiz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+## Other Languages
 
-## Development server
+* Português
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="image.png" width="100%">
 
-## Code scaffolding
+Live version: [https://dsleite.com.br/projects/quiz](https://dsleite.com.br/projects/quiz)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Dragon ball Z Quiz is an Angular app that provides you multiple choices, each choice may score you one or multiple virtue points as below:
 
-## Build
+* Bravery: how likely you will try to solve problems with your fists, be your reasons good or evil;
+* Friendly: how likely you will try to solve problems by first showing empathy to the other side;
+* Rational: how likely you will try to think in a practical solution for everybody;
+* Cowardly: how likely you will just run away or take advantage of the situation;
+* Dreadful: how likely you will solve problems through evil deeds;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The final score will rank you with characters of Dragon Ball Z based on similarity on your virtues.
 
-## Running unit tests
+This app is also capable of changing the language between English and Brazilian Portuguese during the quiz.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Data and Localization Files
 
-## Running end-to-end tests
+* `assets/data/characters.json`: contains data about all the characters, their sprites must be stored in `assets/img/chars` as a .png file with the id as the file name;
+* `assets/data/characters.json`: all text data related to the app interface;
+* `assets/data/questions.json`: contains all data related to the questions, including translation and virtue points;
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Credits
 
-## Further help
+The app's background image was created by Sylvain Sarrailh at [https://tohad.artstation.com/](https://tohad.artstation.com/).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Characters sprites were found in [https://www.hiclipart.com/](https://www.hiclipart.com/).

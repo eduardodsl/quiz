@@ -1,0 +1,64 @@
+{
+    "content": {
+        "z_warrior_test": {
+            "en": "Z Warrior Test",
+            "pt": "Teste de guerreiro Z"
+        },
+        "rules_you_have_n_questions": {
+            "en": "Each question contains four options.",
+            "pt": "Cada questão poussui quatro opções."
+        },
+        "rules_each_choice_will_add_points": {
+            "en": "Each option will add points to your attribute points.",
+            "pt": "Cada opção irá adicionar pontos para os seus pontos de atributos."
+        },
+        "rules_when_you_finish_the_ansers": {
+            "en": "When you finish answering, your points will be used to find the heroes' most similar attributes to yours.",
+            "pt": "Quando você terminar de responder, seus pontos serão usados para identificar os heróis com os atributos mais semelhantes aos seus."
+        },
+        "you": {
+            "en": "You",
+            "pt": "Você"
+        },
+        "similar_characters": {
+            "en": "Similar characters",
+            "pt": "Personagens semelhantes"
+        },
+        "quiz_is_over_results": {
+            "en": "Quiz is over! Results:",
+            "pt": "Fim do Quiz! Resultado:"
+        },
+        "start": {
+            "en": "start",
+            "pt": "iniciar"
+        },
+        "restart": {
+            "en": "restart",
+            "pt": "recomeçar"
+        },
+        "question": {
+            "en": "Question",
+            "pt": "Pergunta"
+        },
+        "bravery": {
+            "en": "bravery",
+            "pt": "bravura"
+        },
+        "friendly": {
+            "en": "friendly",
+            "pt": "amigável"
+        },
+        "rational": {
+            "en": "rational",
+            "pt": "racional"
+        },
+        "cowardly": {
+            "en": "cowardly",
+            "pt": "covarde"
+        },
+        "dreadful": {
+            "en": "dreadful",
+            "pt": "temível"
+        }
+    }
+}

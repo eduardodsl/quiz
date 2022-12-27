@@ -1,1 +1,361 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./assets/img/background.jpg);
+    background-size: cover;
+    font-size: 100%;
+    font-family: Sarala;
+}
+
+@media (min-width: 1024px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 1024px){
+    .layout{
+        width: 1080px;
+        margin: auto;
+    }    
+}
+
+select{
+    background-color: #DA552C;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.locale-selector{
+    text-align: center;
+    padding: 10px;
+}
+
+@media (min-width: 1024px){
+    .locale-selector{
+        text-align: left;
+    }
+}
+
+#main{
+    background-color: #E8E8E8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+h1, h2, h3{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-top: -80px;
+    text-align: center;
+}
+
+h1 img{
+    width: 100%;
+}
+
+@media (min-width: 1024px){
+    h1{
+        margin-top: -130px;
+    }
+    h1 img{
+        width: 778px;
+    }
+}
+.title{
+    position: relative;
+    height: 35px;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.title::before{
+    content: '';
+    display:inline-block;
+    width: 300px;
+    height: 70px;
+    background-color: #0E1622;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    transform: rotate(3.26deg);
+}
+
+.title h2{
+    display: inline-block;
+    background-color: #395681;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.text-area{
+    background-color: #1F324F;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    padding-top: 80px;
+    position: relative;
+    min-height: 300px;
+}
+
+.text-area ul{
+    padding: 0;
+    margin: 0;
+}
+
+.text-area ul li{
+    list-style-type: none;
+}
+
+.introduction .text-area .character-sprite{
+    display: none;
+}
+
+.introduction .text-area {
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+@media (min-width: 1024px){
+    .introduction .text-area .character-sprite{
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: -40px;
+        height: 500px;
+    }
+
+    .introduction .text-area {
+        padding-right: 200px;
+    }
+
+}
+
+.introduction .text-area ul li {
+    margin-bottom: 20px;
+}
+
+.introduction .text-area ul li {
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+.results .character-sprite{
+    height: 500px;
+}
+
+.results .character-sprite img{
+    width: auto;
+}
+
+.character-sprite .img-wrapper{
+    height: inherit;
+}
+
+.character-sprite img{
+    width: 100%;
+    height: inherit;
+}
+
+.start-button{
+    background-color: #B10103;
+    color: white;
+    font-size: 1.6em;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.centered{
+    text-align: center;
+}
+
+.question .text-area p {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.question .text-area ul li button{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #dbdada;
+    border: 1px solid #c9c5c5;
+    transition: background-color .3s;
+    
+}
+
+.question .text-area ul li button:hover{
+    background-color: #e4af04;
+    border: 1px solid #a17c02;
+}
+
+@media (min-width: 1024px){
+    .results .result-data{
+        display: flex;
+    }
+
+    .results .result-data > div{
+        flex: 1;
+    }
+}
+.results .result-data button{
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.results .result-data button .position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.results .result-data button .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.results .character-sprite.face{
+    border: 1px solid #CCCCCC;
+    background-color: red;
+}
+
+.results .character {
+    max-width: 360px;
+}
+
+.results .character .img-wrapper {
+    text-align: center;
+}
+
+.results ul {
+    padding: 0;
+    margin: 0;
+}
+
+.results ul li {
+    list-style-type: none;
+}
+
+@media (min-width: 1024px){
+    .results .list ul{
+        height: 500px;
+        overflow-y: scroll;
+    }
+}
+
+.results .desc{
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: rgb(207, 207, 207);
+}
+
+.results .desc p{
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1024px){
+    .results .desc{
+        margin-right: 20px;
+    }
+}
+
+.character-sprite.face{
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+    background: rgb(102,12,16);
+    background: radial-gradient(circle, rgba(102,12,16,1) 0%, rgba(209,6,6,1) 100%);
+}
+
+.character-sprite.face.vegeta img{
+    margin-top: -20px;
+}
+
+.character-sprite.face.frieza img{
+    width: 180%;
+    margin-left: -50px;
+}
+
+.character-sprite.face img{
+    width: 100%;
+    height: auto;
+}
+
+.results .stats-component{
+    margin-bottom: 20px;
+}
+
+.stats-component li{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.stats-component li > div{
+    flex-grow: 1;
+
+}
+
+.stats-component .stat-name{
+    width: 30px;
+}
+
+.stats-component .stat-level{
+    width: 40%;
+    align-self: center;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.stats-component .stat-value{
+    width: 30px;
+    padding-left: 10px;
+}
+
+.stats-component .stat-level div{
+    height: 10px;
+    background-color: black;
+    border-radius: 4px;
+}

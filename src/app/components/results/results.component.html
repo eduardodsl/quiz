@@ -1,0 +1,28 @@
+<div class="results">
+    <div class="result-data">
+        <div class="character">
+            <app-character-sprite [name]="compare.character.id"></app-character-sprite>
+        </div>
+        <div class="stats">
+            <h3>{{ getContent('you') }}</h3>
+            <app-stats [locale]="locale" [score]="score"></app-stats>
+            <h3>{{ compare.character.getName(locale) }}</h3>
+            <app-stats [locale]="locale" [score]="compare.character.stats"></app-stats>
+            <div class="desc">
+                <p>{{ compare.character.getDesc(locale) }}</p>
+            </div>
+        </div>
+        <div class="list">
+            <h3>{{ getContent('similar_characters') }}</h3>
+            <ul>
+                <li *ngFor="let rank of characters; index as id">
+                    <button (click)="compareChar(id)">
+                        <div class="position">#{{ (id + 1) }}</div>
+                        <app-character-sprite [name]="rank.character.id" type="face"></app-character-sprite>
+                        <div class="name">{{ rank.character.getName(locale) }}</div>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

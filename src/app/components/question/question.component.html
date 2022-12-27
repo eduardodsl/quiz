@@ -1,0 +1,13 @@
+<div class="question">
+    <div class="title">
+        <h2>{{ title }}</h2>
+    </div>
+    <div class="text-area">
+        <p>{{ text }}</p>
+        <ul>
+            <li *ngFor="let alternative of alternatives; index as id">
+                <app-alternative (pick)="alternativePickEvent($event)" [alternative]="alternative" [locale]="locale"></app-alternative>
+            </li>
+        </ul>
+    </div>
+</div>

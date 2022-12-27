@@ -1,0 +1,139 @@
+{
+    "characters": [
+        {
+            "id": "son-goku",
+            "name": { "en": "Son Goku" },
+            "description": {
+                "en": "You are the strongest person in the universe, and the least responsible, some crises will become greater because you just wanted to fight stronger enemies, but in the end you are the universe's last hope.",
+                "pt": "Você é a pessoa mais poderosa do universo, e a menos responsável, umas crises se tornarão piores só porque você queria enfrentar inimigos mais fortes, mas no fim você é última esperança do universo."
+            },
+            "stats": {
+                "bravery": 100,
+                "friendly": 80,
+                "dreadful": 0,
+                "cowardly": 0,
+                "rational": 20
+            }
+        },
+        {
+            "id": "vegeta",
+            "name": { "en": "Vegeta" },
+            "description": {
+                "en": "You have a terrible past and caused destruction throughout the universe, as you started seeing better examples of yourself, you redeemed yourself saving many times the people you tried to destroy in the past",
+                "pt": "Você tem umm passado terrível e trouxe muita destruição para o universo, conforme passou a se rodear de melhores exemplos de você mesmo, você alcançou a redenção salvando várias vezes as pessoas que jurou destruir."
+            },
+            "stats": {
+                "bravery": 100,
+                "friendly": 10,
+                "dreadful": 40,
+                "cowardly": 0,
+                "rational": 30
+            }
+        },
+        {
+            "id": "krillin",
+            "name": { "en": "Krillin", "pt": "Kuririn" },
+            "description": {
+                "en": "You are neither much brave or strong, but you know when taking advantage of some circunstances to bid time or ensure victory to your friends.",
+                "pt": "Você não é nem muito corajoso ou forte, mas você sabe tomar vantagem da situação para ganhar tempo ou garantir a vitória para seus amigos."
+            },
+            "stats": {
+                "bravery": 40,
+                "friendly": 50,
+                "dreadful": 0,
+                "cowardly": 40,
+                "rational": 40
+            }
+        },
+        {
+            "id": "bulma",
+            "name": { "en": "Bulma" },
+            "description": {
+                "en": "You are far from being the strongest person in Earth, let alone in the universe, but with your ingenuity assisting our heroes in finding the Dragon Balls and even traveling in time, evil was prevented from prevailing in many ways.",
+                "pt": "Você está longe de ser a pessoa mais poderosa da Terra, quiçá do universo, mas com a sua inteligência auxiliando nossos heróis em encontrar as esferas do dragão e até mesmo viajando no tempo, o mal foi impedido de prevalecer de várias formas."
+            },
+            "stats": {
+                "bravery": 70,
+                "friendly": 70,
+                "dreadful": 0,
+                "cowardly": 30,
+                "rational": 90
+            }
+        },
+        {
+            "id": "son-gohan",
+            "name": { "en": "Son Gohan" },
+            "description": {
+                "en": "You alaways try to make the right thing no matter what, even having mercy of your worst enemies, but you still more reasonable than your father when it comes to put an ultimate end to evil if needed.",
+                "pt": "Você sempre busca fazer a coisa certa não importa o que seja, mesmo tendo misericórdia de seus piores inimigos, mas você é mais razoável que o seu pai se você precisar por um fim ao mal em definitivo."
+            },
+            "stats": {
+                "bravery": 80,
+                "friendly": 100,
+                "dreadful": 0,
+                "cowardly": 0,
+                "rational": 60
+            }
+        },
+        {
+            "id": "piccolo",
+            "name": { "en": "Piccolo" },
+            "description": {
+                "en": "You might not be the hero everybody wants, but you will protect what's important for you and save people in the process.",
+                "pt": "Você pode não ser o herói que todos querem, mas você irá proteger o que considera mais importante, salvando pessoas no processo."
+            },
+            "stats": {
+                "bravery": 80,
+                "friendly": 10,
+                "dreadful": 30,
+                "cowardly": 0,
+                "rational": 60
+            }
+        },
+        {
+            "id": "frieza",
+            "name": { "en": "Frieza", "pt": "Freeza" },
+            "description": {
+                "en": "You are one of the evilest individuals in the universe, responsible for billions of deaths just to achieve your own selfish goals.",
+                "pt": "Você é um dos piores indivíduos do universo, responsável por bilhões de mortes apenas por buscar seus próprios objetivos pessoais."
+            },
+            "stats": {
+                "bravery": 100,
+                "friendly": 0,
+                "dreadful": 100,
+                "cowardly": 0,
+                "rational": 50
+            }
+        },
+        {
+            "id": "yajirobe",
+            "name": { "en": "Yajirobe" },
+            "description": {
+                "en": "Most people believe you are a coward, although you claim to be just intelligently careful. You will avoid any type of interaction with other people, and will only fight if there is no other choice",
+                "pt": "A maioria das pessoas acreditam que você é um covarde, mas você diz apenas ser inteligentemente cuidadoso. Você evita qualquer tipo de interação com outras pessoas, e só irá lutar se não tiver outra escolha"
+            },
+            "stats": {
+                "bravery": 20,
+                "friendly": 20,
+                "dreadful": 0,
+                "cowardly": 80,
+                "rational": 40
+            }
+        },
+        {
+            "id": "android18",
+            "name": { "en": "Android n.18", "pt": "Andróide n.18" },
+            "description": {
+                "en": "Although today you just work to be a good mother, in essence you still a machine built to kill powerful enemies.",
+                "pt": "Apesar de hoje em dia você só lutar para ser uma boa mãe, você em essência ainda é uma máquina feita para matar poderosos inimigos."
+            },
+            "stats": {
+                "bravery": 80,
+                "friendly": 20,
+                "dreadful": 40,
+                "cowardly": 0,
+                "rational": 60
+            }
+        }
+    ]
+}
